@@ -8,6 +8,7 @@
     body {
         height: 5746px;
         background-color: var(--beige);
+        margin: 0px;
     }
 
     header {
@@ -30,7 +31,7 @@
         position: absolute;
         width: 100%;
         height: 229px;
-        top: 37px;
+        top: 35px;
        }
 
     .landing h1 {
@@ -43,10 +44,9 @@
     }
 
     .intro {
-        position: absolute;
+        position: relative;
         width: 339px;
         height: 345px;
-        top: 358px; 
         border-radius: 21px;
         background-color: var(--marron);
         padding-left: 16px;
@@ -55,6 +55,7 @@
         padding-top: 24px;
         display: flex;
         margin: auto;
+        margin-top: 200px;
     }
 
     .illustration {
@@ -67,23 +68,23 @@
 
     section h1 {
         position: relative;
-        width: 307px;
-        top: 1137px;
+        width: 280px;
+        top: 446px;
         margin: auto;
     }
 
     .article1 {
-        position: absolute;
+        position: relative;
         width: 329px;
         height: 674px;
-        top: 1259px;
-        left: 30px;
+        top: 520px;
+        margin: auto;
         background-color: var(--marron);
     }
 
     .article1 h2 {
         width: 268px;
-        top: 1274px;
+        padding-top: 15px;
         margin: auto;
     }
 
@@ -107,4 +108,229 @@
         margin: auto;
         background-color: black;
         z-index: 1;
+    }
+
+    .article1 p {
+        width: 293px;
+        margin: auto;
+    }
+
+    .article2 {
+        position: relative;
+        width: 329px;
+        height: 685px;
+        top: 500px;
+        margin: auto;
+        margin-top: 110px;
+        background-color: var(--marron);
+    }
+
+    .article2 h2 {
+        width: 268px;
+        padding-top: 15px;
+        margin: auto;
+    }
+
+    .article2 img {
+        position: relative;
+        width: 295px;
+        height: 173px;
+        display: flex;
+        margin: auto;
+        padding-top: 43px;
+        padding-bottom: 43px;
+        z-index: 2;
+    }
+
+    .rectanlge2 {
+        position: absolute;
+        width: 306px;
+        height: 183px;
+        top: 2107px;
+        display: flex;
+        margin: auto;
+        background-color: black;
+        z-index: 1;
+    }
+
+    .article2 p {
+        width: 293px;
+        margin: auto;
+    }
+
+    .article3 {
+        position: relative;
+        width: 329px;
+        height: 703px;
+        top: 590px;
+        margin: auto;
+        background-color: var(--marron);
+    }
+
+    .article3 h2 {
+        width: 268px;
+        padding-top: 15px;
+        margin: auto;
+    }
+
+    .article3 img {
+        position: relative;
+        width: 295px;
+        height: 173px;
+        display: flex;
+        margin: auto;
+        padding-top: 43px;
+        padding-bottom: 43px;
+        z-index: 2;
+    }
+
+    .rectanlge3 {
+        position: absolute;
+        width: 306px;
+        height: 183px;
+        top: 2107px;
+        display: flex;
+        margin: auto;
+        background-color: black;
+        z-index: 1;
+    }
+
+    .article3 p {
+        width: 293px;
+        margin: auto;
+    }
+
+    .article4 {
+        position: relative;
+        width: 329px;
+        height: 703px;
+        top: 675px;
+        margin: auto;
+        background-color: var(--marron);
+    }
+
+    .article4 h2 {
+        width: 268px;
+        padding-top: 15px;
+        margin: auto;
+    }
+
+    .article4 img {
+        position: relative;
+        width: 295px;
+        height: 173px;
+        display: flex;
+        margin: auto;
+        padding-top: 43px;
+        padding-bottom: 20px;
+        z-index: 2;
+    }
+
+    .rectanlge4 {
+        position: absolute;
+        width: 306px;
+        height: 183px;
+        top: 3654px;
+        display: flex;
+        margin: auto;
+        background-color: black;
+        z-index: 1;
+    }
+
+    .article4 p {
+        width: 293px;
+        margin: auto;
+    }
+
+    .article5 {
+        position: relative;
+        width: 329px;
+        height: 703px;
+        top: 760px;
+        margin: auto;
+        background-color: var(--marron);
+    }
+
+    .article5 h2 {
+        width: 268px;
+        padding-top: 15px;
+        margin: auto;
+    }
+
+    .article5 img {
+        position: relative;
+        width: 295px;
+        height: 173px;
+        display: flex;
+        margin: auto;
+        padding-top: 43px;
+        padding-bottom: 43px;
+        z-index: 2;
+    }
+
+    .rectanlge5 {
+        position: absolute;
+        width: 306px;
+        height: 183px;
+        top: 3654px;
+        display: flex;
+        margin: auto;
+        background-color: black;
+        z-index: 1;
+    }
+
+    .article5 p {
+        width: 293px;
+        margin: auto;
+    }
+
+    footer {
+        position: absolute;
+        width: 100%;
+        height: 439px;
+        top: 5307px;
+        background-color: var(--noir);
+    }
+
+    footer .menu {
+        position: relative;
+        height: 18px;
+        top: 90px;
+        margin-left: 33px;
+        color: var(--blanc);
+    }
+
+    .suivre {
+        position: absolute;
+        height: 18px;
+        top: 330px;
+        margin-left: 33px;
+        color: var(--blanc);
+    }
+
+    .logofooter {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 30px;
+        left: 30px;
+    }
+
+    .social-icons {
+        position: absolute;
+        top: 370px;
+        left: 33px;
+    }
+
+    .articleli li {
+        position: relative;
+        top: 85px;
+        padding: 5px;
+    }
+
+    .utils li {
+        position: relative;
+        top: 80px;
+        float: left;
+        padding: 10px;
     }
