@@ -297,7 +297,7 @@
         height: 18px;
         top: 90px;
         margin-left: 33px;
-        color: var(--blanc);
+        color: var(--gris);
     }
 
     .suivre {
@@ -305,7 +305,7 @@
         height: 18px;
         top: 330px;
         margin-left: 33px;
-        color: var(--blanc);
+        color: var(--gris);
     }
 
     .logofooter {
@@ -326,6 +326,8 @@
         position: relative;
         top: 85px;
         padding: 5px;
+        color: var(--blanc);
+        list-style: none;
     }
 
     .utils li {
@@ -333,4 +335,10 @@
         top: 80px;
         float: left;
         padding: 10px;
+        list-style: none;
+    }
+
+    li a {
+        text-decoration: none;
+        color: var(--blanc);    
     }
