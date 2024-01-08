@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTICLE 1</title>
+</head>
+<body>
+    <header>
+        <a href="page1en.html"><img src="/public/img/logo.webp"></a>
+        <p>ABOUT US</p><p>GLOSSARY</p>
+      </header>
+    <main>
+        <div>
+            <img src="/public/img/Head.webp" alt="accueuil">
+            <p>FR / ENG</p>
+            <h1>Dobby is Free</h1>
+        </div>
+        <section>
+            <h1>Harry Potter: The Magical Saga That Enchanted the World</h1>
+            <p>Dive into the enchanting world of Harry Potter, where magic and adventure converge. Discover how this legendary saga has captivated millions of hearts around the globe, bringing a sense of wonder and escapism with every page turned.</p>
+            <div>
+                <img src="/public/img/HarryP1 banner.webp" alt="Affiche">
+                <h2>The Call of Magic</h2>
+                <p>
+                    Since its first publication in 1997, the Harry Potter saga has managed to capture the hearts of readers of all ages. The magical world created by J.K. Rowling has become a global cultural phenomenon, sparking a passion for magic, friendship, and adventure.
+                    "Magic is everywhere if you know where to look." - Albus Dumbledore
+                </p>
+            </div>
+            <div>
+                <img src="/public/img/dumbuldore.webp" alt="dumbuldore">
+                <h2>Discover the World of Hogwarts</h2>
+                <p>At the heart of this saga is Hogwarts, the school of witchcraft and wizardry that becomes a true home for Harry, Ron, Hermione, and all fans. The thrilling adventures within its walls have inspired generations of readers and viewers.</p>
+            </div>
+            <div>
+                <h2>The Struggle Against the Forces of Evil</h2>
+                <p>But Harry Potter is not just a story of friendship and magic. It's also an epic of courage, determination, and resistance against the forces of evil. The iconic character of Voldemort represents the ultimate threat, and Harry embodies hope and the power of love.</p>
+            </div>
+            <div>
+                <h2>Beyond the Books and Films</h2>
+                <img src="/public/img/illucerf.webp" alt="illustration">
+                <p>The magic of Harry Potter goes far beyond the books and films. Theme parks, video games, merchandise, and a vibrant fan community are all evidence of its impact. Fans from around the world come together to celebrate this saga that continues to amaze, inspire, and unite.</p>
+            </div>
+            <div>
+                <h2>Join Us in this Magical Adventure</h2>
+                <p>Harry Potter is much more than a series of books and films. It's a magical journey that has touched our hearts and souls. On this website, we explore the Harry Potter universe from every angle, with in-depth analysis, anecdotes, news, and a space for fans. Join us in this magical adventure where magic is real, friendship is precious, and the adventure has no end.</p>
+            </div>
+            <a href=""><img src="/public/img/partager" alt="partager"></a>
+            <button>GLOSSARY</button>
+        </section>
+        <section class="article_associé">
+                <h1>Associated Article</h1>
+            <div>
+                <h2>Introduction to the book Harry Potter and the Philosopher's Stone</h2>
+                <img src="/public/img/livre.webp" alt="livre">
+                <p>Harry Potter and the Philosopher's Stone is the first book in the Harry Potter series, which has captivated [...]</p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            </section>
+            <section class="autre_article">
+                <h1>Others Articles</h1>
+            <div>
+                <h2>Harry Potter and the Philosopher's Stone: The Magical Beginning of an Epic Saga</h2>
+                <img src="/public/img/HarryP1.webp" alt="Lien article 1">
+                <p>
+                    Then dive into the enchanting magic that has enchanted the entire world. You will be transported to the beginning of the extraordinary adventure [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>Harry Potter and the Deathly Hallows: The Epic Conclusion of a Magical Saga</h2>
+                <img src="/public/img/Harry_gare.webp" alt="Lien article 3">
+                <p>
+                    Dive into the final chapter of the legendary adventure of Harry, Ron, and Hermione. [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>Hedwig's Theme: The Enchanted Melody of the Harry Potter Saga</h2>
+                <img src="/public/img/Hedwige.webp" alt="Lien article 4">
+                <p>
+                    We will explore the profound meaning of the iconic melody composed [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>The Wizards Behind the Screen</h2>
+                <img src="/public/img/Chaise.webp" alt="Lien article 5">
+                <p>
+                    Discover the Wizards Behind the Screen: The Directors Who Masterfully Brought Harry Potter to Life. [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
+        <p>MENU</p>
+      <ul>
+        <li><a href="page1en.html">The Magical Saga That Enchanted the World</a></li>
+          <li><a href="page2en.html">The Magical Beginning of an Epic Saga</a></li>
+          <li><a href="page3en.html">The Epic Conclusion of a Magical Saga</a></li>
+          <li><a href="page4en.html">The Enchanting Melody of the Harry Potter Saga</a></li>
+          <li><a href="page5en.html">The Wizards Behind the Screen</a></li>
+      </ul>
+      <ul>
+        <li><a href="apropos.html"></a>About us</li>
+        <li><a href="glossaire.html"></a>Glossary</li>
+        <li><a href="autreprojet"></a>Others Projects</li>
+      </ul>
+
+      <p class="suivre">Follow us</p>
+      <div class="social-icons">
+        <img class="img" src="public/img/facebook.webp" />
+        <img class="img" src="public/img/instagram.webp" />
+        <img class="img" src="public/img/twitter.webp" />
+        <img class="img" src="public/img/youtube.webp" />
+      </div>
+    </footer>
+</body>
+</html>
