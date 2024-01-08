@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTICLE 2</title>
+</head>
+<body>
+    <header>
+        <a href="page1en.html"><img src="/public/img/logo.webp"></a>
+        <p>ABOUT US</p><p>GLOSSARY</p>
+      </header>
+    <main>
+        <div>
+            <img src="/public/img/Head.webp" alt="accueuil">
+            <p>FR / ENG</p>
+            <h1>Dobby is Free</h1>
+        </div>
+        <section>
+            <h1>Harry Potter and the Deathly Hallows: The Epic Conclusion of a Magical Saga</h1>
+            <p>Dive into the final battle, discover the secrets of the Deathly Hallows, and relive an epic conclusion to a legendary saga.</p>
+            <div>
+                <img src="/public/img/afficherelique.webp" alt="Affiche">
+                <p>
+                    The anticipation was unbearable, but in 2010, the moment finally arrived. Fans from around the world gathered to experience the first part of "Harry Potter and the Deathly Hallows." The last chapter of J.K. Rowling's epic saga was about to come to life on the big screen. In this article, we delve into the ultimate adventure of Harry, Ron, and Hermione.
+                </p>
+            </div>
+            <div>
+                <h2>A Saga Reaching Its Pinnacle</h2>
+                <p>
+                    Since the very first book, readers and moviegoers worldwide have followed the adventures of Harry Potter, a young wizard who discovered he was destined for an extraordinary fate. "Harry Potter and the Deathly Hallows" is the climax of this story, the crescendo that would answer all lingering questions.</p>
+            </div>
+            <div>
+                <h2>The Final Battle</h2>
+                <img src="/public/img/combat.webp" alt="combat">
+                <p>
+                    The first part of the film takes us into a dark and dangerous world. Voldemort is now at the peak of his power, and the shadow of war looms over Hogwarts. Harry, Ron, and Hermione are determined to find and destroy the Horcruxes, magical objects containing a part of Voldemort's soul, to defeat him once and for all.
+                </p>
+            </div>
+            <div>
+                <h2>The Deathly Hallows</h2>
+                <p>
+                    The film also explores the history of the three Deathly Hallows: the Elder Wand, the Resurrection Stone, and the Invisibility Cloak. These mythical objects play a crucial role in Harry's quest to defeat Voldemort, and they are at the heart of the plot.
+                </p>
+            </div>
+            <div>
+                <h2>Courage and Determination</h2>
+                <img src="/public/img/amis.webp" alt="amis">
+                <p>
+                    More than ever, "Harry Potter and the Deathly Hallows" highlights the courage, friendship, and determination of our heroes. They are willing to sacrifice everything for the good of the wizarding world,
+                    and their unbreakable bond is at the heart of the story.
+                </p>
+            </div>
+            <div>
+                <h2>The Moving Conclusion</h2>
+                <p>
+                    The first part of "Harry Potter and the Deathly Hallows" is an emotional cinematic experience, highlighting moments of fear, hope, sadness, and triumph.
+                    It is the prelude to the epic conclusion of the saga, which will deeply touch all fans.
+                </p>
+                <img src="/public/img/dobby.webp" alt="dobby">
+            </div>
+            <div>
+                <h2>The Epic Conclusion</h2>
+                <p>
+                    The second part of the film, released in 2011, brought an epic conclusion to the saga. The final battle at Hogwarts, the revelations about the characters, and Voldemort's fate were all elements that marked the end of this extraordinary adventure.
+                </p>
+            </div>
+            <div>
+                <h2>An Unforgettable Saga</h2>
+                <p>
+                    The Harry Potter series, from the Hogwarts School of Witchcraft and Wizardry to the magical world of the Deathly Hallows, will forever be etched in our memories. It has captivated generations of readers and viewers, transporting us to a world where magic is real, friendship is precious, and courage triumphs over evil.
+                </p>
+                <p>
+                    Relive this epic conclusion of the Harry Potter saga and revisit the unforgettable moments that made this series a legend. Magic continues to live on, and the adventure knows no end.
+                </p>
+                <img src="/public/img/acteur.webp" alt="acteur">
+            </div>
+            <a href=""><img src="/public/img/partager" alt="partager"></a>
+            <button>GLOSSARY</button>
+        </section>
+        <section class="article_associé">
+                <h1>Associated Article</h1>
+            <div>
+                <h2>Presentation of the movie 'Harry Potter and the Deathly Hallows</h2>
+                <img src="/public/img/afficherelique.webp" alt="afficherelique">
+                <p>Harry Potter and the Deathly Hallows" is the culmination of the epic. The movie begins with Harry, Ron, and Hermione on the run, hunted [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            </section>
+            <section class="autre_article">
+                <h1>Others Articles</h1>
+            <div>
+                <h2>Harry Potter: The Magical Saga That Enchanted the World.</h2>
+                <img src="/public/img/HarryP1 banner.webp.webp" alt="Lien article 1">
+                <p>
+                    Immersive exploration of the captivating world of Harry Potter. Since its first publication in 1997, this saga [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>Harry Potter and the Philosopher's Stone: The Magical Beginning of an Epic Saga</h2>
+                <img src="/public/img/HarryP1.webp" alt="Lien article 1">
+                <p>
+                    Then dive into the enchanting magic that has enchanted the entire world. You will be transported to the beginning of the extraordinary adventure [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>Hedwig's Theme: The Enchanted Melody of the Harry Potter Saga</h2>
+                <img src="/public/img/Hedwige.webp" alt="Lien article 4">
+                <p>
+                    We will explore the profound meaning of the iconic melody composed [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>The Wizards Behind the Screen</h2>
+                <img src="/public/img/Chaise.webp" alt="Lien article 5">
+                <p>
+                    Discover the Wizards Behind the Screen: The Directors Who Masterfully Brought Harry Potter to Life. [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
+        <p>MENU</p>
+      <ul>
+        <li><a href="page1en.html">The Magical Saga That Enchanted the World</a></li>
+          <li><a href="page2en.html">The Magical Beginning of an Epic Saga</a></li>
+          <li><a href="page3en.html">The Epic Conclusion of a Magical Saga</a></li>
+          <li><a href="page4en.html">The Enchanting Melody of the Harry Potter Saga</a></li>
+          <li><a href="page5en.html">The Wizards Behind the Screen</a></li>
+      </ul>
+      <ul>
+        <li><a href="apropos.html"></a>About us</li>
+        <li><a href="glossaire.html"></a>Glossary</li>
+        <li><a href="autreprojet"></a>Others Projects</li>
+      </ul>
+
+      <p class="suivre">Follow us</p>
+      <div class="social-icons">
+        <img class="img" src="public/img/facebook.webp" />
+        <img class="img" src="public/img/instagram.webp" />
+        <img class="img" src="public/img/twitter.webp" />
+        <img class="img" src="public/img/youtube.webp" />
+      </div>
+    </footer>
+</body>
+</html>

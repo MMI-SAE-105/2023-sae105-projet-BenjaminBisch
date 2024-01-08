@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTICLE 2</title>
+</head>
+<body>
+    <header>
+        <a href="page1en.html"><img src="/public/img/logo.webp"></a>
+        <p>ABOUT US</p><p>GLOSSARY</p>
+      </header>
+    <main>
+        <div>
+            <img src="/public/img/Head.webp" alt="accueuil">
+            <p>FR / ENG</p>
+            <h1>Dobby is Free</h1>
+        </div>
+        <section>
+            <h1>Hedwig's Theme: The Enchanting Melody of the Harry Potter Saga</h1>
+            <p>Explore the musical soul of the Harry Potter universe through a timeless melody. Discover how each note of "Hedwig's Theme" instantly transports you to a world of magic, adventure, and emotion, reminding you that magic is real.</p>
+            <div>
+                <p>
+                    Welcome to the magical world of Harry Potter, where every note of music instantly transports you to the realm of wizards, white owls, and extraordinary adventures. "Hedwig's Theme," the iconic composition by John Williams, is much more than just a film score. It represents a deep emotional connection between fans and the world of Harry Potter.
+                </p>
+                <img src="/public/img/orchestre.webp" alt="orchestre">
+            </div>
+            <div>
+                <h2>An Instantly Recognizable Melody</h2>
+                <p>
+                    If you're a Harry Potter fan, the mere sound of "Hedwig's Theme" is likely to trigger a wave of nostalgia and excitement. This iconic musical composition has become the musical soul of the saga. It is named after Hedwig, Harry's loyal white owl, who herself embodies an essential part of the story.
+                </p>
+                <p>
+                    The melody is performed by a symphonic orchestra, featuring strings, woodwinds, and brass instruments. This combination of instruments creates an enchanting, somewhat mysterious atmosphere perfectly suited to the world of Harry Potter. The notes follow one another gracefully, evoking a sense of discovery, a journey to an unknown and fantastical world.
+                </p>
+            </div>
+            <div>
+                <h2>Present from the First to the Last Film</h2>
+                <p>
+                    One of the most remarkable features of "Hedwig's Theme" is its constant presence throughout the film series. This melody has been with fans from the very first film, "Harry Potter and the Sorcerer's Stone," to the last, "Harry Potter and the Deathly Hallows - Part 2." Every time you hear those opening notes, you are reminded of how dear Harry, Ron, Hermione, and the entire world of Hogwarts are to your heart.
+                </p>
+                <img src="/public/img/amis2.webp" alt="amis">
+            </div>
+            <div>
+                <h2>An Emotionally Charged Melody</h2>
+                <p>
+                    "Hedwig's Theme" evokes more than just magic. It carries a full spectrum of emotions with it. From the wonder of discovering the magical world for the first time to the sadness of farewells to beloved characters, this melody embodies the most powerful moments of the series.
+                </p>
+                <p>
+                    Beyond words, John Williams' music has succeeded in bringing the deepest themes of Harry Potter to life. It reminds us that magic is not just a series of spells and potions but an emotional journey, an exploration of friendship, courage, and the power of love.
+                </p>
+            </div>
+            <div>
+                <h2>The Backbone of Harry Potter's Magic</h2>
+                <p>
+                    In the end, it's more than just a musical composition. It's an essential part of the soul of Harry Potter. Each note reminds us that magic is real, friendship is precious, and the adventure never ends. The next time you hear "Hedwig's Theme," close your eyes, let the music carry you away, and immerse yourself in the wonderful world of Harry Potter.
+                </p>
+                <img src="/public/img/illuhedwige.webp" alt="Hedwige">
+                <p>
+                    It's much more than just a film score. It's a powerful link between fans and the magical world of Harry Potter. Every note resonates with the soul of the saga, reminding everyone that magic is everywhere if you know where to look.
+                </p>
+            </div>
+            
+            <a href=""><img src="/public/img/partager" alt="partager"></a>
+            <button>GLOSSARY</button>
+        </section>
+        <section class="article_associé">
+                <h1>Associated Article</h1>
+            <div>
+                <h2>Introduction to the music  Hedwig's Theme</h2>
+                <img src="/public/img/concert.webp" alt="concert">
+                <p>The music first appears in the movie 'Harry Potter and the Philosopher's Stone' and is present throughout the series. [...]</p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            </section>
+            <section class="autre_article">
+                <h1>Others Articles</h1>
+            <div>
+                <h2>Harry Potter: The Magical Saga That Enchanted the World.</h2>
+                <img src="/public/img/HarryP1 banner.webp.webp" alt="Lien article 1">
+                <p>
+                    Immersive exploration of the captivating world of Harry Potter. Since its first publication in 1997, this saga [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>Harry Potter and the Philosopher's Stone: The Magical Beginning of an Epic Saga</h2>
+                <img src="/public/img/HarryP1.webp" alt="Lien article 1">
+                <p>
+                    Then dive into the enchanting magic that has enchanted the entire world. You will be transported to the beginning of the extraordinary adventure [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>Harry Potter and the Deathly Hallows: The Epic Conclusion of a Magical Saga</h2>
+                <img src="/public/img/Harry_gare.webp" alt="Lien article 3">
+                <p>
+                    Dive into the final chapter of the legendary adventure of Harry, Ron, and Hermione. [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>The Wizards Behind the Screen</h2>
+                <img src="/public/img/Chaise.webp" alt="Lien article 5">
+                <p>
+                    Discover the Wizards Behind the Screen: The Directors Who Masterfully Brought Harry Potter to Life. [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
+        <p>MENU</p>
+      <ul>
+        <li><a href="page1en.html">The Magical Saga That Enchanted the World</a></li>
+          <li><a href="page2en.html">The Magical Beginning of an Epic Saga</a></li>
+          <li><a href="page3en.html">The Epic Conclusion of a Magical Saga</a></li>
+          <li><a href="page4en.html">The Enchanting Melody of the Harry Potter Saga</a></li>
+          <li><a href="page5en.html">The Wizards Behind the Screen</a></li>
+      </ul>
+      <ul>
+        <li><a href="apropos.html"></a>About us</li>
+        <li><a href="glossaire.html"></a>Glossary</li>
+        <li><a href="autreprojet"></a>Others Projects</li>
+      </ul>
+
+      <p class="suivre">Follow us</p>
+      <div class="social-icons">
+        <img class="img" src="public/img/facebook.webp" />
+        <img class="img" src="public/img/instagram.webp" />
+        <img class="img" src="public/img/twitter.webp" />
+        <img class="img" src="public/img/youtube.webp" />
+      </div>
+    </footer>
+</body>
+</html>
