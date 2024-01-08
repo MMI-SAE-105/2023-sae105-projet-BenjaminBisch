@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTICLE 2</title>
+</head>
+<body>
+    <header>
+        <a href="page1en.html"><img src="/public/img/logo.webp"></a>
+        <p>ABOUT US</p><p>GLOSSARY</p>
+      </header>
+    <main>
+        <div>
+            <img src="/public/img/Head.webp" alt="accueuil">
+            <p>FR / ENG</p>
+            <h1>Dobby is Free</h1>
+        </div>
+            <h1>The Wizards Behind the Screen</h1>
+            <p>
+                Explore the artistic influence of the directors behind the iconic saga. Discover how these directors infused their unique vision into the world of Hogwarts, creating a cinematic legacy that continues to enchant and inspire fans worldwide.
+            </p>
+            <div>
+                
+                <img src="/public/img/chaise2.webp" alt="chaise2">
+                <p>
+                    The Harry Potter saga, known for its magical world and memorable characters, wouldn't be what it is without the contribution of talented directors. Each film in the series was guided by a unique artistic vision. In this article, we will explore the directors who helped bring the world of Hogwarts to the big screen.
+                </p>
+            </div>
+            <section>
+                <div>
+                    <h2>1. Chris Columbus</h2>
+                    <img src="/public/img/chris.webp" alt="Chris Columbus">
+                    <p>
+                        American director Chris Columbus took the reins of the first two films in the saga, "Harry Potter and the Sorcerer's Stone" and "Harry Potter and the Chamber of Secrets." His work set the tone and aesthetics of the magical world, bringing the magic of Hogwarts to the screen.
+                    </p>
+                </div>
+                <div>
+                    <h2>2. Alfonso Cuarón</h2>
+                    <img src="/public/img/alfonso.webp" alt="Alfonso Cuarón">
+                    <p>
+                        Alfonso Cuarón directed the third film, "Harry Potter and the Prisoner of Azkaban." His unique artistic vision gave this installment a darker and more realistic tone while further exploring themes of adolescence and identity.
+                    </p>
+                </div>
+                <div>
+                    <h2>3. Mike Newell</h2>
+                    <img src="/public/img/mike.webp" alt="Mike Newell">
+                    <p>
+                        British director Mike Newell helmed the fourth film, "Harry Potter and the Goblet of Fire." He managed to capture the excitement of the magical competitions of the Triwizard Tournament while continuing to develop the main plot.
+                    </p>
+                </div>
+                <div>
+                    <h2>4. David Yates</h2>
+                    <img src="/public/img/david.webp" alt="David Yates">
+                    <p>
+                        David Yates became the primary director of the saga from the fifth film, "Harry Potter and the Order of the Phoenix." He went on to direct the following four films, including both parts of "Harry Potter and the Deathly Hallows." His style brought a darker and more realistic dimension to the saga while exploring the relationships between the characters.
+                    </p>
+                </div>
+            </section>
+            <div>
+                <h2>The Legacy of Harry Potter</h2>
+                <img src="/public/img/bannerconclu.webp" alt="banniere">
+                <p>
+                    Each of these directors brought their personal touch to the Harry Potter saga, contributing to creating a cohesive whole while exploring unique aspects of the universe. Their talents have helped captivate millions of fans worldwide.
+                </p>
+                <p>
+                    Thanks to their hard work, the magic of Harry Potter has been preserved on screen, and each film continues to captivate and inspire new generations. The legacy of the saga endures, and the magical world of Hogwarts remains as vibrant as ever.
+                </p>
+            </div>
+            
+            <a href=""><img src="/public/img/partager" alt="partager"></a>
+            <button>GLOSSARY</button>
+        <section class="article_associé">
+                <h1>Associated Article</h1>
+            <div>
+                <h2>Introduction to the director Chris Columbus</h2>
+                <img src="/public/img/realisateur.webp" alt="realisateur">
+                <p>
+                    Chris Columbus began his Hollywood career by writing screenplays for films such as 'Gremlins' and 'The Goonies' (1985). But [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            </section>
+            <section class="autre_article">
+                <h1>Others Articles</h1>
+            <div>
+                <h2>Harry Potter: The Magical Saga That Enchanted the World.</h2>
+                <img src="/public/img/HarryP1 banner.webp.webp" alt="Lien article 1">
+                <p>
+                    Immersive exploration of the captivating world of Harry Potter. Since its first publication in 1997, this saga [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>Harry Potter and the Philosopher's Stone: The Magical Beginning of an Epic Saga</h2>
+                <img src="/public/img/HarryP1.webp" alt="Lien article 1">
+                <p>
+                    Then dive into the enchanting magic that has enchanted the entire world. You will be transported to the beginning of the extraordinary adventure [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>Harry Potter and the Deathly Hallows: The Epic Conclusion of a Magical Saga</h2>
+                <img src="/public/img/Harry_gare.webp" alt="Lien article 3">
+                <p>
+                    Dive into the final chapter of the legendary adventure of Harry, Ron, and Hermione. [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+            <div>
+                <h2>Hedwig's Theme: The Enchanted Melody of the Harry Potter Saga</h2>
+                <img src="/public/img/Hedwige.webp" alt="Lien article 4">
+                <p>
+                    We will explore the profound meaning of the iconic melody composed [...]
+                </p>
+                <a href=""><img src="/public/img/partager" alt="partager"></a>
+                <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
+        <p>MENU</p>
+      <ul>
+        <li><a href="page1en.html">The Magical Saga That Enchanted the World</a></li>
+          <li><a href="page2en.html">The Magical Beginning of an Epic Saga</a></li>
+          <li><a href="page3en.html">The Epic Conclusion of a Magical Saga</a></li>
+          <li><a href="page4en.html">The Enchanting Melody of the Harry Potter Saga</a></li>
+          <li><a href="page5en.html">The Wizards Behind the Screen</a></li>
+      </ul>
+      <ul>
+        <li><a href="apropos.html"></a>About us</li>
+        <li><a href="glossaire.html"></a>Glossary</li>
+        <li><a href="autreprojet"></a>Others Projects</li>
+      </ul>
+
+      <p class="suivre">Follow us</p>
+      <div class="social-icons">
+        <img class="img" src="public/img/facebook.webp" />
+        <img class="img" src="public/img/instagram.webp" />
+        <img class="img" src="public/img/twitter.webp" />
+        <img class="img" src="public/img/youtube.webp" />
+      </div>
+    </footer>
+</body>
+</html>
