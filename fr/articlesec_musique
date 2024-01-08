@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossaire</title>
+</head>
+<body>
+    <header>
+        <a href="page1.html"><img src="/public/img/logo.webp"></a>
+        <p>A PROPOS</p><p>GLOSSAIRE</p>
+      </header>
+      <img src="/public/img/head2.webp" alt="head2">
+      <main>
+        <div>
+            <h2>Présentation de la musique Hedwig's Theme</h2>
+            <p>Titre de la Musique : "Hedwig's Theme" 
+                Compositeur : John Williams 
+                Apparition : La musique apparaît pour la première fois dans le film "Harry Potter à l'école des sorciers" (2001) et elle est présente tout au long de la série.
+                Description : "Hedwig's Theme" est la musique thème principale de la série de films Harry Potter. Elle est nommée d'après la chouette blanche d'Harry, Hedwig, et elle est instantanément reconnaissable. Cette musique évoque un sentiment de mystère, de magie et d'aventure, ce qui en fait un choix parfait pour un site web sur Harry Potter.
+                La mélodie est jouée avec un orchestre symphonique, mettant en avant des instruments à cordes, des bois et des cuivres. Elle évoque un sentiment de découverte, de voyage vers un monde inconnu et fantastique. "Hedwig's Theme" est devenue emblématique de la franchise Harry Potter et est associée à l'entrée dans le monde de la sorcellerie et de la magie.</p>
+        </div>
+      </main>
+      <footer>
+        <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
+        <p>MENU</p>
+        <ul>
+          <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
+          <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
+          <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
+          <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
+          <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
+        </ul>
+        <ul>
+          <li><a href="apropos.html"></a>A Propos</li>
+          <li><a href="glossaire.html"></a>Glossaire</li>
+          <li><a href="autreprojet"></a>Autres projets</li>
+        </ul>
+  
+        <p class="suivre">NOUS SUIVRE</p>
+        <div class="social-icons">
+          <img class="img" src="public/img/facebook.webp" />
+          <img class="img" src="public/img/instagram.webp" />
+          <img class="img" src="public/img/twitter.webp" />
+          <img class="img" src="public/img/youtube.webp" />
+        </div>
+      </footer>
+</body>
+</html>

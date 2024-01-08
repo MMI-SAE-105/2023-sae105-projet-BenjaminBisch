@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossaire</title>
+</head>
+<body>
+    <header>
+        <a href="page1.html"><img src="/public/img/logo.webp"></a>
+        <p>A PROPOS</p><p>GLOSSAIRE</p>
+      </header>
+      <img src="/public/img/head2.webp" alt="head2">
+      <main>
+        <div>
+            <h2>Présentation d’un réalisateur</h2>
+            <p>Nom du Réalisateur : Chris Columbus
+                Biographie : Chris Columbus, de son nom complet Christopher Joseph Columbus, est un réalisateur, producteur et scénariste américain né le 10 septembre 1958 à Spangler, en Pennsylvanie. Il est surtout connu pour avoir dirigé les deux premiers films de la série Harry Potter.
+                Chris Columbus a débuté sa carrière à Hollywood en écrivant des scénarios pour des films tels que "Gremlins" (1984) et "Les Goonies" (1985). Cependant, il s'est rapidement fait un nom en tant que réalisateur avec des films familiaux à succès, notamment "Maman, j'ai raté l'avion" (1990) et "Maman, j'ai encore raté l'avion" (1992).
+                En 2001, il a été choisi pour diriger "Harry Potter à l'école des sorciers", le premier film de la saga Harry Potter. Son travail sur ce film a établi le ton visuel et l'univers magique qui allaient devenir la marque de fabrique de la série. Il a également dirigé la suite, "Harry Potter et la Chambre des secrets" (2002).
+                En plus de sa contribution à la série Harry Potter, Chris Columbus a réalisé de nombreux autres films populaires, notamment "La Nuit au musée" (2006) et "Percy Jackson : Le Voleur de Foudre" (2010). Il a continué à travailler dans l'industrie cinématographique en tant que réalisateur, scénariste et producteur, créant des films qui ont marqué plusieurs générations.
+                Chris Columbus est un cinéaste reconnu pour sa capacité à raconter des histoires captivantes et à donner vie à des mondes fantastiques sur grand écran, ce qui en fait un choix approprié pour le premier volet de la saga Harry Potter.</p>
+        </div>
+      </main>
+      <footer>
+        <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
+        <p>MENU</p>
+        <ul>
+          <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
+          <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
+          <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
+          <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
+          <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
+        </ul>
+        <ul>
+          <li><a href="apropos.html"></a>A Propos</li>
+          <li><a href="glossaire.html"></a>Glossaire</li>
+          <li><a href="autreprojet"></a>Autres projets</li>
+        </ul>
+  
+        <p class="suivre">NOUS SUIVRE</p>
+        <div class="social-icons">
+          <img class="img" src="public/img/facebook.webp" />
+          <img class="img" src="public/img/instagram.webp" />
+          <img class="img" src="public/img/twitter.webp" />
+          <img class="img" src="public/img/youtube.webp" />
+        </div>
+      </footer>
+</body>
+</html>

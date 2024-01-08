@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossaire</title>
+</head>
+<body>
+    <header>
+        <a href="page1.html"><img src="/public/img/logo.webp"></a>
+        <p>A PROPOS</p><p>GLOSSAIRE</p>
+      </header>
+      <img src="/public/img/head2.webp" alt="head2">
+      <main>
+        <div>
+            <h2>Présentation du film Harry Potter et les Reliques de la Mort</h2>
+            <p>Titre du Livre : Harry Potter et les Reliques de la Mort
+                Année de Publication : 2010
+                réalisateur : David Yates
+                Genre : Fantasy, Jeunesse
+                Résumé : "Harry Potter et les Reliques de la Mort" est le point culminant de l'épopée de Harry Potter. Le film commence avec Harry, Ron et Hermione en fuite, traqués par les partisans de Lord Voldemort, les Mangemorts. Le monde des sorciers est plongé dans les ténèbres, et Voldemort est plus puissant que jamais. Harry a découvert l'existence des Reliques de la Mort, trois objets légendaires qui sont censés rendre invincible celui qui les possède.
+                Au fur et à mesure que le trio se lance dans une quête pour détruire les Horcruxes, des objets dans lesquels Voldemort a disséminé une partie de son âme pour devenir immortel, ils se rendent compte de la complexité du passé de Dumbledore et des sacrifices qu'ils doivent faire pour mettre fin à la menace de Voldemort.
+                Le film explore des thèmes profonds tels que la mort, le sacrifice, l'amitié, le pouvoir de l'amour et le courage. Les personnages, y compris Harry, Ron, Hermione, et d'autres, atteignent leur maturité et font face à des défis difficiles.
+                Pourquoi ce livre est-il lié au thème "Dobby est libre ? : Le film "Harry Potter et les Reliques de la Mort" est également lié au thème de la liberté et de la lutte contre l'oppression. Tout au long de la série, les personnages se battent pour mettre fin à la tyrannie de Lord Voldemort et pour restaurer la paix dans le monde sorcier. Le personnage de Dobby, l'elfe de maison, est un exemple de cette lutte pour la liberté,
+                et son sacrifice pour aider Harry et ses amis à atteindre leurs objectifs est un moment émotionnellement puissant dans ce livre.</p>
+
+                <h1>Bande annonce du film</h1>
+        </div>
+      </main>
+      <footer>
+        <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
+        <p>MENU</p>
+        <ul>
+          <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
+          <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
+          <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
+          <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
+          <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
+        </ul>
+        <ul>
+          <li><a href="apropos.html"></a>A Propos</li>
+          <li><a href="glossaire.html"></a>Glossaire</li>
+          <li><a href="autreprojet"></a>Autres projets</li>
+        </ul>
+  
+        <p class="suivre">NOUS SUIVRE</p>
+        <div class="social-icons">
+          <img class="img" src="public/img/facebook.webp" />
+          <img class="img" src="public/img/instagram.webp" />
+          <img class="img" src="public/img/twitter.webp" />
+          <img class="img" src="public/img/youtube.webp" />
+        </div>
+      </footer>
+</body>
+</html>
