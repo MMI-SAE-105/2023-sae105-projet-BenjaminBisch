@@ -13,9 +13,17 @@
 
     header {
         width: 100%;
-        height: 35px;
+        height: 55px;
         background-color: var(--rouge);
         z-index: 1001;
+    }
+
+    header img {
+        position: relative;
+        width: 55px;
+        height: 55px;
+        display: flex;
+        margin: aut;
     }
 
     .landing div p {
@@ -31,7 +39,7 @@
         position: absolute;
         width: 100%;
         height: 229px;
-        top: 35px;
+        top: 55px;
        }
 
     .landing h1 {
