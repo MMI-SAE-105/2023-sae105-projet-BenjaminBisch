@@ -6,13 +6,12 @@
 @import url(Variables.css);
 
     body {
-        width: 100%;
         height: 5746px;
         background-color: var(--beige);
     }
 
     header {
-        width: 10000px;
+        width: 100%;
         height: 35px;
         background-color: var(--rouge);
         z-index: 1001;
