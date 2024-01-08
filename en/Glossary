@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossary</title>
+</head>
+<body>
+    <header>
+        <a href="page1en.html"><img src="/public/img/logo.webp"></a>
+        <p>ABOUT US</p><p>GLOSSARY</p>
+      </header>
+      <img src="/public/img/head2.webp" alt="head2">
+      <main>
+        <div>
+        <h2>Glossary</h2>
+        <p>
+            Poudlard: The iconic wizarding school where Harry Potter and his friends study magic.
+        </p>
+
+        <p>
+            Horcruxes: Magical objects in which Voldemort hid a portion of his soul to become immortal.
+        </p>
+
+        <p>
+            Death Eaters: The followers of Lord Voldemort, responsible for many evil acts in the series.
+        </p>
+
+        <p>
+            Dobby: The brave house-elf who aspires to freedom, a memorable character in the saga.
+        </p>
+
+        <p>
+            Voldemort: The main evil sorcerer, Harry Potter's enemy.
+        </p>
+
+        <p>
+            Deathly Hallows: Three legendary objects believed to make the possessor invincible.
+        </p>
+
+        <p>
+            Hedwig's Theme: The iconic musical melody of the series, associated with the magical world of Harry Potter.
+        </p>
+
+        <p>
+            Dursley: The family with whom Harry lives at the beginning of his life before discovering his status as a wizard.
+        </p>
+
+        <p>
+            Resurrection Stone, Elder Wand, and Invisibility Cloak: The three Deathly Hallows.
+        </p>
+        
+        </div>
+      </main>
+      <footer>
+        <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
+        <p>MENU</p>
+      <ul>
+        <li><a href="page1en.html">The Magical Saga That Enchanted the World</a></li>
+          <li><a href="page2en.html">The Magical Beginning of an Epic Saga</a></li>
+          <li><a href="page3en.html">The Epic Conclusion of a Magical Saga</a></li>
+          <li><a href="page4en.html">The Enchanting Melody of the Harry Potter Saga</a></li>
+          <li><a href="page5en.html">The Wizards Behind the Screen</a></li>
+      </ul>
+      <ul>
+        <li><a href="apropos.html"></a>About us</li>
+        <li><a href="glossaire.html"></a>Glossary</li>
+        <li><a href="autreprojet"></a>Others Projects</li>
+      </ul>
+
+      <p class="suivre">Follow us</p>
+      <div class="social-icons">
+        <img class="img" src="public/img/facebook.webp" />
+        <img class="img" src="public/img/instagram.webp" />
+        <img class="img" src="public/img/twitter.webp" />
+        <img class="img" src="public/img/youtube.webp" />
+      </div>
+    </footer>
+</body>
+</html>
