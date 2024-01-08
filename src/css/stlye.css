@@ -15,7 +15,7 @@
         width: 100%;
         height: 35px;
         background-color: var(--rouge);
-        z-index: 1001   ;
+        z-index: 1001;
     }
 
     .landing div p {
@@ -44,7 +44,7 @@
     }
 
     .intro {
-        position: relative;
+        position: absolute;
         width: 339px;
         height: 345px;
         top: 358px; 
@@ -54,11 +54,12 @@
         padding-right: 16px;
         padding-bottom: 24px;
         padding-top: 24px;
+        display: flex;
         margin: auto;
     }
 
     .illustration {
-        position: relative;
+        position: absolute;
         width: 100%;
         height: 292px;
         top: 771px;
