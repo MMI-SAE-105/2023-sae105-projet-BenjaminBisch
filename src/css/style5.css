@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+
+@import url(Variables.css);
+
+    body {
+        height: 6550px;
+        background-color: var(--beige);
+        margin: 0px;
+    }
+
+    header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 55px;
+        background-color: var(--rouge);
+        z-index: 1001;
+    }
+
+    .apropos {
+        position: absolute;
+        display: flex;
+        left: 100px;
+        margin-top: -35px;
+        z-index: 1;
+        color: var(--blanc);
+    }
+
+    .glossaire {
+        position: absolute;
+        display: flex;
+        left: 225px;
+        margin-top: -35px;
+        z-index: 10;
+        color: var(--blanc);
+    }
+
+    .open-closed {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 20px;
+        left: 350px;
+      }
+      
+      .menu-open {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 85%;
+      }
+
+      .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        opacity: 0.92;
+        z-index: 1000;
+        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+      }
+      
+      .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 25% 0 0 0;
+        text-align: center;
+      }
+      .menu ul li {
+        margin-bottom: 20px;
+      }
+      .menu ul li a {
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+      }
+      .menu ul li a:hover {
+        color: var(--marron); 
+      }
+      .menu[x-show] {
+        display: block;
+      }
+      .noscroll {
+        overflow: hidden;
+      }
+    
+      .close-icon {
+        position: absolute;
+        cursor: pointer;
+        z-index: 1100;
+        top: 20px;
+        left: 85%;
+    }
+    
+    .close-icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    header img {
+        position: relative;
+        width: 55px;
+        height: 55px;
+        display: flex;
+    }
+
+    .landing div {
+        position: absolute;
+        width: 100%;
+        height: 229px;
+        top: 55px;
+        background-color: black;
+        opacity: 0.7;
+       }
+
+    .landing div p {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 6px;
+        z-index: 1000;
+        color: var(--blanc);
+    }
+
+    .landing .head {
+        position: absolute;
+        width: 100%;
+        height: 229px;
+        top: 55px;
+       }
+
+    .landing h1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 50px;
+        z-index: 1000;
+        color: var(--blanc);
+    }
+
+    .article {
+        position: relative;
+        width: 338px;
+        height: 2678px;
+        top: 384px;
+        margin: auto;
+        background-color: var(--marron);
+    }
+
+    .article h1 {
+        width: 307px;
+        height: 93px;
+        margin: auto;
+        text-align: center;
+        padding-top: 70px;
+        color: var(--blanc);
+        font-family: 'EB Garamond';
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 26.4px;
+    }
+
+    .chapeau {
+        position: relative;
+        padding-top: 18px;
+        height: 101px;
+        width: 310px;
+        margin: auto;
+        font-family: "mulish";
+        font-size: 11px;
+        font-weight: 300;
+        color: white;
+        line-height: 17.6px;
+    }
+
+    .part1 p {
+        position: relative;
+        width: 308px;
+        height: 196px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        padding-left: 11px;
+        padding-top: 15px;
+    }
+    
+    .part1 img {
+        position: relative;
+        width: 307px;
+        height: 172px;
+        display: flex;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .part2 h2 {
+        position: relative;
+        width: 278px;
+        height: 59px;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        color: white;
+        padding-left: 11px;
+        padding-top: 10px;
+    }
+    
+    .part2 p {
+        position: relative;
+        width: 308px;
+        height: 177px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        padding-left: 11px;
+    }
+
+    .part2 .p2 {
+        position: relative;
+        width: 308px;
+        height: 194px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        margin-top: -5px;
+        padding-left: 11px;
+        padding-top: 15px;
+    }
+
+    .part3 h2 {
+        position: relative;
+        width: 307px;
+        height: 59px;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        color: white;
+        padding-left: 11px;
+    }
+
+    .part3 p {
+        position: relative;
+        width: 308px;
+        height: 210px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        padding-left: 11px;
+        padding-top: 10px;
+    }
+    
+    .part3 img {
+        position: relative;
+        width: 307px;
+        height: 172px;
+        display: flex;
+        margin: auto;
+        padding-top: 21px
+    }
+
+    .part4 h2 {
+        position: relative;
+        width: 278px;
+        height: 25px;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        color: white;
+        padding-left: 11px;
+        padding-top: 10px;
+    }
+    
+    .part4 p {
+        position: relative;
+        width: 308px;
+        height: 149px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        padding-left: 11px;
+    }
+
+    .part4 .p3 {
+        position: relative;
+        width: 308px;
+        height: 131px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        margin-top: -5px;
+        padding-left: 11px;
+        padding-top: 15px;
+    }
+
+    .part5 h2 {
+        position: relative;
+        width: 307px;
+        height: 55px;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        color: white;
+        padding-left: 11px;
+    }
+
+    .part5 p {
+        position: relative;
+        width: 308px;
+        height: 194px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        padding-left: 11px;
+    }
+    
+    .part5 img {
+        position: relative;
+        width: 138px;
+        height: 251px;
+        padding-left: 11px;
+    }
+
+    .part5 .p4 {
+        position: absolute;
+        width: 153px;
+        height: 231px;
+        top: 2350px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        padding-left: 170px;
+    }
+
+    .article_associé h1 {
+        position: relative;
+        width: 331px;
+        height: 51px;
+        top: 625px;
+        margin: auto;
+        font-family: "EB Garamond";
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .article_associé div {
+        position: relative;
+        width: 329px;
+        height: 411px;
+        background-color: var(--marron);
+        top: 634px;
+        margin: auto;
+    }
+
+    .article_associé h2 {
+        position: relative;
+        width: 301px;
+        height: 54px;
+        padding-left: 11px;
+        padding-top: 12px;
+        font-family: 'EB Garamond';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+    }
+
+    .article_associé img {
+        position: relative;
+        width: 302px;
+        height: 196px;
+        display: flex;
+        margin: auto;
+    }
+
+    .article_associé p {
+        position: relative;
+        width: 293px;
+        height: 60px;
+        padding-left: 11px;
+        padding-top: 3px;
+        font-family: 'Mulish';
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+        color: white;        
+    }
+
+    .autre_article h1 {
+        position: absolute;
+        width: 331px;
+        height: 51px;
+        top: 3910px;
+        left: 12%;
+        font-family: EB Garamond;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .aa1 {
+        position: relative;
+        width: 329px;
+        height: 441px;
+        top: 860px;
+        background-color: var(--marron);
+        margin: auto;
+    }
+
+    .aa1 h2 {
+        position: relative;
+        width: 306px;
+        height: 60px;
+        padding-left: 11px;
+        padding-top: 10px;
+        font-family: EB Garamond;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+    }
+
+    .aa1 img {
+        position: relative;
+        width: 295px;
+        height: 121px;
+        padding-top: 20px;
+        display: flex;
+        margin: auto;
+    }
+
+    .aa1 p {
+        position: relative;
+        width: 296px;
+        height: 60px;
+        padding-left: 11px;
+        padding-top: 30px;
+        font-family: Mulish;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;    
+        color: white;    
+    }
+
+    .aa2 {
+        position: relative;
+        width: 329px;
+        height: 441px;
+        top: 958px;
+        background-color: var(--marron);
+        margin: auto;
+    }
+
+    .aa2 h2 {
+        position: relative;
+        width: 306px;
+        height: 60px;
+        padding-left: 11px;
+        padding-top: 10px;
+        font-family: EB Garamond;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+    }
+
+    .aa2 img {
+        position: relative;
+        width: 295px;
+        height: 173px;
+        display: flex;
+        margin: auto;
+    }
+
+    .aa2 p {
+        position: relative;
+        width: 296px;
+        height: 91px;
+        padding-left: 11px;
+        font-family: Mulish;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;    
+        color: white;    
+    }
+
+    .aa3 {
+        position: relative;
+        width: 329px;
+        height: 441px;
+        top: 1054px;
+        background-color: var(--marron);
+        margin: auto;
+    }
+
+    .aa3 h2 {
+        position: relative;
+        width: 306px;
+        height: 60px;
+        padding-left: 11px;
+        padding-top: 10px;
+        font-family: EB Garamond;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+    }
+
+    .aa3 img {
+        position: relative;
+        width: 300px;
+        height: 176px;
+        padding-top: 20px;
+        display: flex;
+        margin: auto;
+    }
+
+    .aa3 p {
+        position: relative;
+        width: 293px;
+        height: 51px;
+        padding-left: 11px;
+        padding-top: 10px;
+        font-family: Mulish;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;    
+        color: white;    
+    }
+
+    .aa4 {
+        position: relative;
+        width: 329px;
+        height: 441px;
+        top: 1152px;
+        background-color: var(--marron);
+        margin: auto;
+    }
+
+    .aa4 h2 {
+        position: relative;
+        width: 306px;
+        height: 33px;
+        padding-left: 11px;
+        padding-top: 10px;
+        font-family: EB Garamond;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+    }
+
+    .aa4 img {
+        position: relative;
+        width: 279px;
+        height: 174px;
+        padding-top: 10px;
+        display: flex;
+        margin: auto;
+    }
+
+    .aa4 p {
+        position: relative;
+        width: 293px;
+        height: 51px;
+        padding-left: 11px;
+        padding-top: 15px;
+        font-family: Mulish;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;    
+        color: white;    
+    }
+
+    footer {
+        position: absolute;
+        width: 100%;
+        height: 439px;
+        top: 6250px;
+        background-color: var(--noir);
+    }
+
+    footer .menu {
+        position: relative;
+        height: 18px;
+        top: 90px;
+        margin-left: 33px;
+        color: var(--gris);
+    }
+
+    .suivre {
+        position: absolute;
+        height: 18px;
+        top: 330px;
+        margin-left: 33px;
+        color: var(--gris);
+    }
+
+    .logofooter {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 30px;
+        left: 30px;
+    }
+
+    .social-icons {
+        position: absolute;
+        top: 370px;
+        left: 33px;
+    }
+
+    .articleli li {
+        position: relative;
+        top: 85px;
+        padding: 5px;
+        color: var(--blanc);
+        list-style: none;
+    }
+
+    .utils li {
+        position: relative;
+        top: 80px;
+        float: left;
+        padding: 10px;
+        list-style: none;
+    }
+
+    li a {
+        text-decoration: none;
+        color: var(--blanc);    
+    }
