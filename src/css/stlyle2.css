@@ -6,7 +6,7 @@
 @import url(Variables.css);
 
     body {
-        height: 5300px;
+        height: 5780px;
         background-color: var(--beige);
         margin: 0px;
     }
@@ -328,4 +328,300 @@
         padding-top: 20px;
     }
 
-    
+    .article_associé h1 {
+        position: relative;
+        width: 331px;
+        height: 51px;
+        top: 625px;
+        margin: auto;
+        font-family: "EB Garamond";
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .article_associé div {
+        position: relative;
+        width: 329px;
+        height: 411px;
+        background-color: var(--marron);
+        top: 634px;
+        margin: auto;
+    }
+
+    .article_associé h2 {
+        width: 301px;
+        height: 54px;
+        padding-left: 11px;
+        padding-top: 12px;
+        font-family: 'EB Garamond';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+    }
+
+    .article_associé img {
+        width: 302px;
+        height: 196px;
+        display: flex;
+        margin: auto;
+    }
+
+    .article_associé p {
+        width: 293px;
+        height: 50px;
+        padding-left: 11px;
+        padding-top: 3px;
+        font-family: 'Mulish';
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+        color: white;        
+    }
+
+    .autre_article h1 {
+        position: absolute;
+        width: 331px;
+        height: 51px;
+        top: 3139px;
+        left: 26px;
+        font-family: EB Garamond;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .aa1 {
+        position: relative;
+        width: 329px;
+        height: 441px;
+        top: 860px;
+        background-color: var(--marron);
+        margin: auto;
+    }
+
+    .aa1 h2 {
+        position: relative;
+        width: 306px;
+        height: 60px;
+        padding-left: 11px;
+        padding-top: 10px;
+        font-family: EB Garamond;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+    }
+
+    .aa1 img {
+        position: relative;
+        width: 295px;
+        height: 173px;
+        display: flex;
+        margin: auto;
+    }
+
+    .aa1 p {
+        position: relative;
+        width: 296px;
+        height: 91px;
+        padding-left: 11px;
+        font-family: Mulish;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;    
+        color: white;    
+    }
+
+    .aa2 {
+        position: relative;
+        width: 329px;
+        height: 441px;
+        top: 958px;
+        background-color: var(--marron);
+        margin: auto;
+    }
+
+    .aa2 h2 {
+        position: relative;
+        width: 306px;
+        height: 60px;
+        padding-left: 11px;
+        padding-top: 10px;
+        font-family: EB Garamond;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+    }
+
+    .aa2 img {
+        position: relative;
+        width: 300px;
+        height: 176px;
+        padding-top: 20px;
+        display: flex;
+        margin: auto;
+    }
+
+    .aa2 p {
+        position: relative;
+        width: 293px;
+        height: 51px;
+        padding-left: 11px;
+        padding-top: 10px;
+        font-family: Mulish;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;    
+        color: white;    
+    }
+
+    .aa3 {
+        position: relative;
+        width: 329px;
+        height: 441px;
+        top: 1056px;
+        background-color: var(--marron);
+        margin: auto;
+    }
+
+    .aa3 h2 {
+        position: relative;
+        width: 306px;
+        height: 60px;
+        padding-left: 11px;
+        padding-top: 10px;
+        font-family: EB Garamond;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+    }
+
+    .aa3 img {
+        position: relative;
+        width: 300px;
+        height: 176px;
+        padding-top: 10px;
+        display: flex;
+        margin: auto;
+    }
+
+    .aa3 p {
+        position: relative;
+        width: 293px;
+        height: 51px;
+        padding-left: 11px;
+        font-family: Mulish;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;    
+        color: white;    
+    }
+
+    .aa4 {
+        position: relative;
+        width: 329px;
+        height: 441px;
+        top: 1154px;
+        background-color: var(--marron);
+        margin: auto;
+    }
+
+    .aa4 h2 {
+        position: relative;
+        width: 306px;
+        height: 33px;
+        padding-left: 11px;
+        padding-top: 10px;
+        font-family: EB Garamond;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+    }
+
+    .aa4 img {
+        position: relative;
+        width: 279px;
+        height: 174px;
+        padding-top: 10px;
+        display: flex;
+        margin: auto;
+    }
+
+    .aa4 p {
+        position: relative;
+        width: 293px;
+        height: 51px;
+        padding-left: 11px;
+        padding-top: 15px;
+        font-family: Mulish;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;    
+        color: white;    
+    }
+
+    footer {
+        position: absolute;
+        width: 100%;
+        height: 439px;
+        top: 5425px;
+        background-color: var(--noir);
+    }
+
+    footer .menu {
+        position: relative;
+        height: 18px;
+        top: 90px;
+        margin-left: 33px;
+        color: var(--gris);
+    }
+
+    .suivre {
+        position: absolute;
+        height: 18px;
+        top: 330px;
+        margin-left: 33px;
+        color: var(--gris);
+    }
+
+    .logofooter {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 30px;
+        left: 30px;
+    }
+
+    .social-icons {
+        position: absolute;
+        top: 370px;
+        left: 33px;
+    }
+
+    .articleli li {
+        position: relative;
+        top: 85px;
+        padding: 5px;
+        color: var(--blanc);
+        list-style: none;
+    }
+
+    .utils li {
+        position: relative;
+        top: 80px;
+        float: left;
+        padding: 10px;
+        list-style: none;
+    }
+
+    li a {
+        text-decoration: none;
+        color: var(--blanc);    
+    }
