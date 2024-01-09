@@ -1,38 +1,62 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARTICLE 3</title>
-</head>
+<html lang="fr" x-data="{
+  menuIsOpen: false,
+ }" 
+ :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/style4.css" />
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <title>article 3</title>
+  </head>
 <body>
     <header>
-        <a href=""><img src="/public/img/logo.webp"></a>
-        <p>A PROPOS</p><p>GLOSSAIRE</p>
+      <a href=""><img src="/public/img/logo.webp.jpeg"></a>
+      <p class="apropos">A PROPOS</p><p class="glossaire">GLOSSAIRE</p>
+
+      <a aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menubtn">
+        <div class="open-closed"><img class="menu-open" src="/public/img/menu-open.webp"/></div>
+        </a>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+          <div class="close-icon" @click="menuIsOpen = false">
+            <img src="/public/img/menu-closed.webp" alt="Fermer le menu" /></div>
+            <ul>
+              <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
+              <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
+              <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
+              <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
+              <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
+            </ul>
+        </nav>
       </header>
     <main>
-        <div>
-            <img src="/public/img/Head.webp" alt="accueuil">
-            <p>FR / ENG</p>
-            <h1>Dobby est libre</h1>
-        </div>
-        <section>
-            <h1>Harry Potter et les Reliques de la Mort : La Conclusion Épique d'une Saga Magique</h1>
-            <p>Plongez dans la bataille finale, découvrez les secrets des Reliques de la Mort et revivez une conclusion épique pour une saga légendaire.</p>
+        <section class="landing">
+            <img class="head" src="/public/img/Head.webp" alt="accueuil">
             <div>
+              <p>FR / ENG</p>
+              <h1>Dobby est libre</h1>
+            </div>
+        </section>
+        <section class="article">
+            <h1>Harry Potter et les Reliques de la Mort : La Conclusion Épique d'une Saga Magique</h1>
+            <p class="chapeau">Plongez dans la bataille finale, découvrez les secrets des Reliques de la Mort et revivez une conclusion épique pour une saga légendaire.</p>
+            <div class="part1">
                 <img src="/public/img/afficherelique.webp" alt="Affiche">
                 <p>
                     L'attente était insoutenable, mais en 2010, le moment est enfin arrivé. Les fans du monde entier se sont rassemblés pour découvrir la première partie de "Harry Potter et les Reliques de la Mort". Le dernier chapitre de la saga épique de J.K. Rowling était sur le point de prendre vie sur grand écran. Dans cet article,
                     nous plongeons dans l'ultime aventure de Harry, Ron et Hermione.
                 </p>
             </div>
-            <div>
+            <div class="part2">
                 <h2>Une Saga Qui Atteint son Apogée</h2>
                 <p>
                     Depuis le tout premier livre, les lecteurs et les cinéphiles du monde entier ont suivi les aventures de Harry Potter, un jeune sorcier qui a découvert qu'il était destiné à un destin extraordinaire. "Harry Potter et les Reliques de la Mort" est le point culminant de cette histoire,
                     l'apothéose qui allait répondre à toutes les questions en suspens.</p>
             </div>
-            <div>
+            <div class="part3">
                 <h2>La Bataille Finale</h2>
                 <img src="/public/img/combat.webp" alt="combat">
                 <p>
@@ -40,7 +64,7 @@
                     pour le vaincre une fois pour toutes.
                 </p>
             </div>
-            <div>
+            <div class="part4">
                 <h2>Les Reliques de la Mort</h2>
                 <p>
                     Le film explore également l'histoire des trois Reliques de la Mort : la Baguette de Sureau, la Pierre de Résurrection et la Cape d'Invisibilité.
@@ -48,7 +72,7 @@
                     et ils sont au cœur de l'intrigue.
                 </p>
             </div>
-            <div>
+            <div class="part5">
                 <h2>Le Courage et la Détermination</h2>
                 <img src="/public/img/amis.webp" alt="amis">
                 <p>
@@ -56,7 +80,7 @@
                     et leur lien indéfectible est au cœur de l'histoire.
                 </p>
             </div>
-            <div>
+            <div class="part6">
                 <h2>La Conclusion Émouvante</h2>
                 <p>
                     La première partie de "Harry Potter et les Reliques de la Mort" est une expérience cinématographique émotionnelle,
@@ -65,21 +89,21 @@
                 </p>
                 <img src="/public/img/dobby.webp" alt="dobby">
             </div>
-            <div>
+            <div class="part7">
                 <h2>La Conclusion Épique</h2>
                 <p>
                     La deuxième partie du film, sortie en 2011, a apporté une conclusion épique à la saga. La bataille finale à Poudlard,
                     les révélations sur les personnages et le destin de Voldemort ont été autant d'éléments qui ont marqué la fin de cette aventure extraordinaire.
                 </p>
             </div>
-            <div>
+            <div class="part8">
                 <h2>Une Saga Inoubliable</h2>
                 <p>
                     La série Harry Potter, de l'école de sorcellerie de Poudlard au monde magique des Reliques de la Mort, restera à jamais gravée dans nos mémoires.
                     Elle a captivé des générations de lecteurs et de spectateurs, nous transportant dans un monde où la magie est réelle,
                     l'amitié est précieuse, et le courage triomphe du mal.
                 </p>
-                <p>
+                <p class="p2">
                     Replongez dans cette conclusion épique de la saga Harry Potter et revivez les moments inoubliables qui ont fait de cette série une légende.
                     La magie continue de vivre, et l'aventure n'a pas de fin.
                 </p>
@@ -102,7 +126,7 @@
             </section>
             <section class="autre_article">
                 <h1>Autres articles</h1>
-            <div>
+            <div class="aa1">
                 <h2>Harry Potter : La Saga Magique Qui a Enchanté le Monde.</h2>
                 <img src="/public/img/HarryP1 banner.webp" alt="Lien article 2">
                 <p>
@@ -111,7 +135,7 @@
                 <a href=""><img src="/public/img/partager" alt="partager"></a>
                 <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
             </div>
-            <div>
+            <div class="aa2">
                 <h2>Harry Potter à l'École des Sorciers : Le Début Magique d'une Saga Épique</h2>
                 <img src="/public/img/HarryP1.webp" alt="Lien article 1">
                 <p>
@@ -120,7 +144,7 @@
                 <a href=""><img src="/public/img/partager" alt="partager"></a>
                 <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
             </div>
-            <div>
+            <div class="aa3">
                 <h2>Hedwig's Theme : La Mélodie Enchantée de la Saga Harry Potter</h2>
                 <img src="/public/img/Hedwige.webp" alt="Lien article 4">
                 <p>
@@ -129,7 +153,7 @@
                 <a href=""><img src="/public/img/partager" alt="partager"></a>
                 <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
             </div>
-            <div>
+            <div class="aa4">
                 <h2>les Mages Derrière l'Écran</h2>
                 <img src="/public/img/Chaise.webp" alt="Lien article 5">
                 <p>
@@ -141,19 +165,19 @@
         </section>
     </main>
     <footer>
-        <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
-        <p>MENU</p>
-        <ul>
-            <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
-          <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
-          <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
-          <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
-          <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
+        <a href="page1.html"><img class="logofooter" src="/public/img/logo.webp.jpeg" alt="Retour accueuil"></a>
+        <p class="menu">MENU</p>
+        <ul class="articleli">
+          <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
+            <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
+            <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
+            <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
+            <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
         </ul>
-        <ul>
-          <li><a href="apropos.html"></a>A Propos</li>
-          <li><a href="glossaire.html"></a>Glossaire</li>
-          <li><a href="autreprojet"></a>Autres projets</li>
+        <ul class="utils">
+          <li><a href="apropos.html">A Propos</a></li>
+          <li><a href="glossaire.html">Glossaire</a></li>
+          <li><a href="autreprojet">Autres projets</a></li>
         </ul>
   
         <p class="suivre">NOUS SUIVRE</p>
@@ -164,5 +188,5 @@
           <img class="img" src="public/img/youtube.webp" />
         </div>
       </footer>
-</body>
-</html>
+  </body>
+  </html>
