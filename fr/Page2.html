@@ -1,25 +1,50 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARTICLE 1</title>
-</head>
+<html lang="fr" x-data="{
+  menuIsOpen: false,
+ }" 
+ :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/stlyle2.css" />
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <title>Dobby est libre</title>
+  </head>
 <body>
     <header>
-        <a href="page1.html"><img src="/public/img/logo.webp.jpeg"></a>
-        <p>A PROPOS</p><p>GLOSSAIRE</p>
-      </header>
+      <a href=""><img src="/public/img/logo.webp.jpeg"></a>
+      <p class="apropos">A PROPOS</p><p class="glossaire">GLOSSAIRE</p>
+
+      <a aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menubtn">
+        <div class="open-closed"><img class="menu-open" src="/public/img/menu-open.webp"/></div>
+        </a>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+          <div class="close-icon" @click="menuIsOpen = false">
+            <img src="/public/img/menu-closed.webp" alt="Fermer le menu" /></div>
+            <ul>
+              <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
+              <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
+              <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
+              <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
+              <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
+            </ul>
+        </nav>
+
+    </header>
     <main>
-        <div>
-            <img src="/public/img/Head.webp" alt="accueuil">
-            <p>FR / ENG</p>
-            <h1>Dobby est libre</h1>
-        </div>
-        <section>
-            <h1>Harry Potter : La Saga Magique Qui a Enchanté le Monde</h1>
-            <p>Plongez dans l'univers envoûtant de Harry Potter, où la magie et l'aventure se rencontrent. Découvrez comment cette saga légendaire a captivé des millions de cœurs à travers le globe, apportant un sentiment d'émerveillement et d'évasion à chaque page tournée.</p>
+        <section class="landing">
+            <img class="head" src="/public/img/Head.webp" alt="accueuil">
             <div>
+              <p>FR / ENG</p>
+              <h1>Dobby est libre</h1>
+            </div>
+        </section>
+        <section class="article">
+            <h1>Harry Potter : La Saga Magique Qui a Enchanté le Monde</h1>
+            <p class="chapeau">Plongez dans l'univers envoûtant de Harry Potter, où la magie et l'aventure se rencontrent. Découvrez comment cette saga légendaire a captivé des millions de cœurs à travers le globe, apportant un sentiment d'émerveillement et d'évasion à chaque page tournée.</p>
+            <div class="part1">
                 <img src="/public/img/HarryP1 banner.webp" alt="Affiche">
                 <h2>L'Appel de la Magie</h2>
                 <p>
@@ -27,22 +52,22 @@
                     "La magie est partout si vous savez où regarder." - Albus Dumbledore
                 </p>
             </div>
-            <div>
+            <div class="part2">
                 <img src="/public/img/dumbuldore.webp" alt="dumbuldore">
                 <h2>Découvrez l'Univers de Poudlard</h2>
                 <p>Au cœur de cette saga se trouve Poudlard, l'école de sorcellerie qui devient un véritable chez-soi pour Harry, Ron, Hermione, et tous les fans. Les aventures palpitantes à l'intérieur de ses murs ont inspiré des générations de lecteurs et de spectateurs.</p>
             </div>
-            <div>
+            <div class="part3">
                 <h2>La Lutte Contre les Forces du Mal</h2>
                 <p>Mais Harry Potter n'est pas seulement une histoire d'amitié et de magie. C'est aussi une épopée de courage, de détermination, et de résistance contre les forces du mal. Le personnage emblématique de Voldemort représente la menace ultime, et Harry incarne l'espoir et le pouvoir de l'amour.</p>
             </div>
-            <div>
+            <div class="part4">
                 <h2>Au-Delà des Livres et des Films</h2>
                 <img src="/public/img/illucerf.webp" alt="illustration">
                 La magie de Harry Potter Va bien au delà des livres et des films.
                 Les parcs à thème, les jeux vidéo, les produits dérivés et la communauté des fans vibrant son autant de témoignages de son impact. Les fans du monde entier se réunissent pour célébrer cette saga qui continue d'émerveiller, d'inspirer et de rassembler.
             </div>
-            <div>
+            <div class="part5">
                 <h2>Rejoignez-nous dans cette Aventure Magique</h2>
                 <p>Harry Potter est bien plus qu'une série de livres et de films. C'est un voyage magique qui a touché nos cœurs et nos âmes. Sur ce site, nous explorons l'univers de Harry Potter sous toutes ses facettes, avec des analyses approfondies, des anecdotes, des actualités, et un espace pour les fans. Rejoignez-nous dans cette aventure magique où la magie est réelle, l'amitié est précieuse, et l'aventure n'a pas de fin.</p>
             </div>

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+
+@import url(Variables.css);
+
+    body {
+        height: 5300px;
+        background-color: var(--beige);
+        margin: 0px;
+    }
+
+    header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 55px;
+        background-color: var(--rouge);
+        z-index: 1001;
+    }
+
+    .apropos {
+        position: absolute;
+        display: flex;
+        left: 100px;
+        margin-top: -35px;
+        z-index: 1;
+        color: var(--blanc);
+    }
+
+    .glossaire {
+        position: absolute;
+        display: flex;
+        left: 225px;
+        margin-top: -35px;
+        z-index: 10;
+        color: var(--blanc);
+    }
+
+    .open-closed {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 20px;
+        left: 350px;
+      }
+      
+      .menu-open {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 85%;
+      }
+
+      .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        opacity: 0.92;
+        z-index: 1000;
+        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+      }
+      
+      .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 25% 0 0 0;
+        text-align: center;
+      }
+      .menu ul li {
+        margin-bottom: 20px;
+      }
+      .menu ul li a {
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+      }
+      .menu ul li a:hover {
+        color: var(--marron); 
+      }
+      .menu[x-show] {
+        display: block;
+      }
+      .noscroll {
+        overflow: hidden;
+      }
+    
+      .close-icon {
+        position: absolute;
+        cursor: pointer;
+        z-index: 1100;
+        top: 20px;
+        left: 85%;
+    }
+    
+    .close-icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    header img {
+        position: relative;
+        width: 55px;
+        height: 55px;
+        display: flex;
+    }
+
+    .landing div {
+        position: absolute;
+        width: 100%;
+        height: 229px;
+        top: 55px;
+        background-color: black;
+        opacity: 0.7;
+       }
+
+    .landing div p {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 6px;
+        z-index: 1000;
+        color: var(--blanc);
+    }
+
+    .landing .head {
+        position: absolute;
+        width: 100%;
+        height: 229px;
+        top: 55px;
+       }
+
+    .landing h1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 50px;
+        z-index: 1000;
+        color: var(--blanc);
+    }
+
+    .article {
+        position: relative;
+        width: 338px;
+        height: 1900px;
+        top: 384px;
+        margin: auto;
+        background-color: var(--marron);
+    }
+
+    .article h1 {
+        width: 200px;
+        height: 93px;
+        margin: auto;
+        text-align: center;
+        padding-top: 70px;
+        color: var(--blanc);
+        font-family: 'EB Garamond';
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 26.4px;
+    }
+
+    .chapeau {
+        position: relative;
+        padding-top: 18px;
+        height: 101px;
+        width: 310px;
+        margin: auto;
+        font-family: "mulish";
+        font-size: 11px;
+        font-weight: 300;
+        color: white;
+        line-height: 17.6px;
+    }
+
+    .part1 img {
+        position: relative;
+        width: 307px;
+        height: 125px;
+        display: flex;
+        margin: auto;
+        padding-top: 18px
+    }
+
+    .part1 h2 {
+        width: 176px;
+        height: 30px;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        color: white;
+        padding-left: 11px;
+    }
