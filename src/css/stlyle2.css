@@ -188,6 +188,7 @@
     }
 
     .part1 h2 {
+        position: relative;
         width: 176px;
         height: 30px;
         font-family: 'Mulish';
@@ -197,3 +198,134 @@
         color: white;
         padding-left: 11px;
     }
+
+    .part1 p {
+        position: relative;
+        width: 307px;
+        height: 196px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        margin-top: -30px;
+        padding-left: 11px;
+    }
+
+    .part2 img {
+        position: relative;
+        width: 308px;
+        height: 196px;
+        display: flex;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .part2 h2 {
+        position: relative;
+        width: 281px;
+        height: 30px;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        color: white;
+        padding-left: 11px;
+    }
+
+    .part2 p {
+        position: relative;
+        width: 307px;
+        height: 133px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        margin-top: -8px;
+        padding-left: 11px;
+    }
+
+    .part3 h2 {
+        position: relative;
+        width: 304px;
+        height: 30px;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        color: white;
+        padding-left: 11px;
+    }
+
+    .part3 p {
+        position: relative;
+        width: 308px;
+        height: 135px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        margin-top: -5px;
+        padding-left: 11px;
+    }
+
+    .part4 img {
+        position: relative;
+        width: 138px;
+        height: 251px;
+        padding-left: 11px;
+    }
+
+    .part4 h2 {
+        position: relative;
+        width: 281px;
+        height: 30px;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        color: white;
+        padding-left: 11px;
+    }
+
+    .part4 p {
+        position: relative;
+        width: 151px;
+        height: 283px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        margin-top: -260px;
+        padding-left: 160px;
+    }
+
+    .part5 h2 {
+        position: relative;
+        width: 304px;
+        height: 30px;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        color: white;
+        padding-left: 11px;
+    }
+
+    .part5 p {
+        position: relative;
+        width: 301px;
+        height: 196px;
+        font-family: "Mulish";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: white;
+        padding-left: 11px;
+        padding-top: 20px;
+    }
+
+    
