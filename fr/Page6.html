@@ -1,27 +1,52 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARTICLE 5</title>
-</head>
+<html lang="fr" x-data="{
+  menuIsOpen: false,
+ }" 
+ :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/style4.css" />
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <title>article 3</title>
+  </head>
 <body>
     <header>
-        <a href=""><img src="/public/img/logo.webp"></a>
-        <p>A PROPOS</p><p>GLOSSAIRE</p>
+      <a href=""><img src="/public/img/logo.webp.jpeg"></a>
+      <p class="apropos">A PROPOS</p><p class="glossaire">GLOSSAIRE</p>
+
+      <a aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menubtn">
+        <div class="open-closed"><img class="menu-open" src="/public/img/menu-open.webp"/></div>
+        </a>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+          <div class="close-icon" @click="menuIsOpen = false">
+            <img src="/public/img/menu-closed.webp" alt="Fermer le menu" /></div>
+            <ul>
+              <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
+              <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
+              <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
+              <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
+              <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
+            </ul>
+        </nav>
       </header>
     <main>
-        <div>
-            <img src="/public/img/Head.webp" alt="accueuil">
-            <p>FR / ENG</p>
-            <h1>Dobby est libre</h1>
-        </div>
+        <section class="landing">
+            <img class="head" src="/public/img/Head.webp" alt="accueuil">
+            <div>
+              <p>FR / ENG</p>
+              <h1>Dobby est libre</h1>
+            </div>
+        </section>
+        <section class="article">
             <h1>Les Mage Derrière la Réalisation de Harry Potter</h1>
-            <p>
+            <p class="chapeau">
                 Explorez l'influence artistique des réalisateurs derrière la saga emblématique. Découvrez comment ces metteurs en scène ont insufflé leur vision unique dans l'univers de Poudlard,
                 créant ainsi un héritage cinématographique qui continue d'émerveiller et d'inspirer les fans à travers le monde.
             </p>
-            <div>
+            <div class="part1">
                 
                 <img src="/public/img/chaise2.webp" alt="chaise2">
                 <p>
@@ -29,8 +54,7 @@
                     Dans cet article, nous explorerons les réalisateurs qui ont contribué à donner vie à l'univers de Poudlard sur grand écran.
                 </p>
             </div>
-            <section>
-                <div>
+                <div class="part2">
                     <h2>1. Chris Columbus</h2>
                     <img src="/public/img/chris.webp" alt="Chris Columbus">
                     <p>
@@ -38,7 +62,7 @@
                         Son travail a établi le ton et l'esthétique du monde magique, apportant la magie de Poudlard à l'écran.
                     </p>
                 </div>
-                <div>
+                <div class="part3">
                     <h2>2. Alfonso Cuarón</h2>
                     <img src="/public/img/alfonso.webp" alt="Alfonso Cuarón">
                     <p>
@@ -46,7 +70,7 @@
                         tout en explorant davantage les thèmes de l'adolescence et de l'identité.
                     </p>
                 </div>
-                <div>
+                <div class="part4">
                     <h2>3. Mike Newell</h2>
                     <img src="/public/img/mike.webp" alt="Mike Newell">
                     <p>
@@ -54,7 +78,7 @@
                         tout en continuant à développer l'intrigue principale.
                     </p>
                 </div>
-                <div>
+                <div class="part5">
                     <h2>4. David Yates</h2>
                     <img src="/public/img/david.webp" alt="David Yates">
                     <p>
@@ -63,7 +87,6 @@
                         tout en explorant les relations entre les personnages.
                     </p>
                 </div>
-            </section>
             <div>
                 <h2>La Conclusion Émouvante</h2>
                 <img src="/public/img/bannerconclu.webp" alt="banniere">
@@ -79,6 +102,7 @@
             
             <a href=""><img src="/public/img/partager" alt="partager"></a>
             <button>GLOSSAIRE</button>
+        </section>
         <section class="article_associé">
                 <h1>Article associé</h1>
             <div>
@@ -132,19 +156,19 @@
         </section>
     </main>
     <footer>
-        <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
-        <p>MENU</p>
-        <ul>
+        <a href="page1.html"><img class="logofooter" src="/public/img/logo.webp.jpeg" alt="Retour accueuil"></a>
+        <p class="menu">MENU</p>
+        <ul class="articleli">
           <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
-          <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
-          <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
-          <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
-          <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
+            <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
+            <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
+            <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
+            <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
         </ul>
-        <ul>
-          <li><a href="apropos.html"></a>A Propos</li>
-          <li><a href="glossaire.html"></a>Glossaire</li>
-          <li><a href="autreprojet"></a>Autres projets</li>
+        <ul class="utils">
+          <li><a href="apropos.html">A Propos</a></li>
+          <li><a href="glossaire.html">Glossaire</a></li>
+          <li><a href="autreprojet">Autres projets</a></li>
         </ul>
   
         <p class="suivre">NOUS SUIVRE</p>
@@ -155,5 +179,5 @@
           <img class="img" src="public/img/youtube.webp" />
         </div>
       </footer>
-</body>
-</html>
+  </body>
+  </html>

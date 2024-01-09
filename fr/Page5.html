@@ -1,32 +1,56 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARTICLE 4</title>
-</head>
+<html lang="fr" x-data="{
+  menuIsOpen: false,
+ }" 
+ :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/style4.css" />
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <title>article 3</title>
+  </head>
 <body>
     <header>
-        <a href=""><img src="/public/img/logo.webp"></a>
-        <p>A PROPOS</p><p>GLOSSAIRE</p>
+      <a href=""><img src="/public/img/logo.webp.jpeg"></a>
+      <p class="apropos">A PROPOS</p><p class="glossaire">GLOSSAIRE</p>
+
+      <a aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menubtn">
+        <div class="open-closed"><img class="menu-open" src="/public/img/menu-open.webp"/></div>
+        </a>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+          <div class="close-icon" @click="menuIsOpen = false">
+            <img src="/public/img/menu-closed.webp" alt="Fermer le menu" /></div>
+            <ul>
+              <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
+              <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
+              <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
+              <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
+              <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
+            </ul>
+        </nav>
       </header>
     <main>
-        <div>
-            <img src="/public/img/Head.webp" alt="accueuil">
-            <p>FR / ENG</p>
-            <h1>Dobby est libre</h1>
-        </div>
-        <section>
-            <h1>Hedwig's Theme : La Mélodie Enchantée de la Saga Harry Potter</h1>
-            <p>Explorez l'âme musicale de l'univers de Harry Potter à travers une mélodie intemporelle. Découvrez comment chaque note de "Hedwig's Theme" vous transporte instantanément dans un monde de magie, d'aventure et d'émotion, rappelant que la magie est bien réelle.</p>
+        <section class="landing">
+            <img class="head" src="/public/img/Head.webp" alt="accueuil">
             <div>
+              <p>FR / ENG</p>
+              <h1>Dobby est libre</h1>
+            </div>
+        </section>
+        <section class="article">
+            <h1>Hedwig's Theme : La Mélodie Enchantée de la Saga Harry Potter</h1>
+            <p class="chapeau">Explorez l'âme musicale de l'univers de Harry Potter à travers une mélodie intemporelle. Découvrez comment chaque note de "Hedwig's Theme" vous transporte instantanément dans un monde de magie, d'aventure et d'émotion, rappelant que la magie est bien réelle.</p>
+            <div class="part1">
                 <p>
                     Bienvenue dans le monde magique de Harry Potter, où chaque note de musique vous transporte instantanément dans l'univers des sorciers, des chouettes blanches et des aventures extraordinaires. "Hedwig's Theme" la mélodie iconique composée par John Williams, est bien plus qu'une simple musique de film.
                     Elle est un lien émotionnel profond entre les fans et l'univers de Harry Potter.
                 </p>
                 <img src="/public/img/orchestre.webp" alt="orchestre">
             </div>
-            <div>
+            <div class="part2">
                 <h2>Une Mélodie Instantanément Reconnaissable</h2>
                 <p>
                     Si vous êtes fan de Harry Potter, il y a de fortes chances que le simple son de "Hedwig's Theme" déclenche une vague de nostalgie et d'excitation. Cette composition musicale emblématique est devenue l'âme musicale de la saga.
@@ -37,7 +61,7 @@
                     évoquant un sentiment de découverte, de voyage vers un monde inconnu et fantastique.
                 </p>
             </div>
-            <div>
+            <div class="part3">
                 <h2>Présente du Premier au Dernier Film</h2>
                 <p>
                     L'une des caractéristiques les plus remarquables de "Hedwig’s Theme" est sa présence constante tout au long de la série cinématographique. Cette mélodie accompagne les fans depuis le tout premier film, "Harry Potter à l'école des sorciers," jusqu'au dernier, "Harry Potter et les Reliques de la Mort - Partie 2." Chaque fois que vous entendez ces premières notes,
@@ -45,7 +69,7 @@
                 </p>
                 <img src="/public/img/amis2.webp" alt="amis">
             </div>
-            <div>
+            <div class="part4">
                 <h2>Une Mélodie Chargée d'Émotion</h2>
                 <p>
                     "Hedwig's Theme" évoque plus que la simple magie. Elle transporte avec elle un spectre complet d'émotions.
@@ -53,7 +77,7 @@
                     cette mélodie incarne les moments les plus puissants de la série.
                 </p>
             </div>
-            <div>
+            <div class="part5">
                 <h2>L'Épine Dorsale de la Magie de Harry Potter</h2>
                 <p>
                     En fin de compte, c’est plus qu'une simple composition musicale. C'est une partie essentielle de l'âme de Harry Potter. Chaque note nous rappelle que la magie est réelle, que l'amitié est précieuse, et que l'aventure n'a pas de fin. La prochaine fois que vous entendrez "Hedwig's Theme" fermez les yeux,
@@ -82,7 +106,7 @@
             </section>
             <section class="autre_article">
                 <h1>Autres articles</h1>
-            <div>
+            <div class="aa1">
                 <h2>Harry Potter : La Saga Magique Qui a Enchanté le Monde.</h2>
                 <img src="/public/img/HarryP1 banner.webp" alt="Lien article 2">
                 <p>
@@ -91,7 +115,7 @@
                 <a href=""><img src="/public/img/partager" alt="partager"></a>
                 <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
             </div>
-            <div>
+            <div class="aa2">
                 <h2>Harry Potter à l'École des Sorciers : Le Début Magique d'une Saga Épique</h2>
                 <img src="/public/img/HarryP1.webp" alt="Lien article 1">
                 <p>
@@ -100,7 +124,7 @@
                 <a href=""><img src="/public/img/partager" alt="partager"></a>
                 <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
             </div>
-            <div>
+            <div class="aa3">
                 <h2>Harry Potter et les Reliques de la Mort : La Conclusion Épique d'une Saga Magique</h2>
                 <img src="/public/img/Harry_gare.webp" alt="Lien article 3">
                 <p>
@@ -109,7 +133,7 @@
                 <a href=""><img src="/public/img/partager" alt="partager"></a>
                 <a href=""><img src="/public/img/showmore" alt="voir plus sur l'article"></a>
             </div>
-            <div>
+            <div class="aa4">
                 <h2>les Mages Derrière l'Écran</h2>
                 <img src="/public/img/Chaise.webp" alt="Lien article 5">
                 <p>
@@ -121,19 +145,19 @@
         </section>
     </main>
     <footer>
-        <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
-        <p>MENU</p>
-        <ul>
-            <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
-          <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
-          <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
-          <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
-          <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
+        <a href="page1.html"><img class="logofooter" src="/public/img/logo.webp.jpeg" alt="Retour accueuil"></a>
+        <p class="menu">MENU</p>
+        <ul class="articleli">
+          <li><a href="Page2.html">La Saga Magique Qui a Enchanté le Monde</a></li>
+            <li><a href="Page3.html">Le Début Magique d'une Saga Épique</a></li>
+            <li><a href="Page4.html">La Conclusion Épique d'une Saga Magique</a></li>
+            <li><a href="Page5.html">La Mélodie Enchantée de la Saga Harry Potter</a></li>
+            <li><a href="Page6.html">Les Mage Derrière la Réalisation de Harry Potter</a></li>
         </ul>
-        <ul>
-          <li><a href="apropos.html"></a>A Propos</li>
-          <li><a href="glossaire.html"></a>Glossaire</li>
-          <li><a href="autreprojet"></a>Autres projets</li>
+        <ul class="utils">
+          <li><a href="apropos.html">A Propos</a></li>
+          <li><a href="glossaire.html">Glossaire</a></li>
+          <li><a href="autreprojet">Autres projets</a></li>
         </ul>
   
         <p class="suivre">NOUS SUIVRE</p>
@@ -144,5 +168,5 @@
           <img class="img" src="public/img/youtube.webp" />
         </div>
       </footer>
-</body>
-</html>
+  </body>
+  </html>
