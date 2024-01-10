@@ -657,3 +657,8 @@
         text-decoration: none;
         color: var(--blanc);    
     }
+
+    header a {
+        text-decoration: none;
+        color: var(--blanc);    
+    }

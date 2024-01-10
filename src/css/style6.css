@@ -20,6 +20,11 @@
         z-index: 1001;
     }
 
+    header a {
+        text-decoration: none;
+        color: var(--blanc);    
+    }
+
     .apropos {
         position: absolute;
         display: flex;
