@@ -1,8 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/OLLHpiQA)
-- NOM : 
-- PRÉNOM :
-- URL du site :
-- URL FIGMA :
+- NOM : Bisch
+- PRÉNOM : Benjamin
+- URL du site : https://dobbyestlibre.netlify.app/fr/page1  (URL Netlify car probleme avec infomaniak)
+- URL FIGMA : https://www.figma.com/file/WXn6sMfwv7YJQaV6buX9xt/Maquettes-projet-individuel-%E2%80%94-Benjamin-BISCH?type=design&node-id=0%3A1&mode=dev
 
 # Structure de départ pour le projet individuel.
 
