@@ -459,15 +459,14 @@
     }
 
     .partage1 {
-        position: relative;
+        position: absolute;
         width: 50px;
         height: 50px;
         background-color: var(--marron);
         border: 2px solid;
         border-color: var(--beige);
-        display: flex;
-        margin: auto;
-        top: 185px;
+        top: 647px;
+        left: 125px;
     }
 
     .partage2 img {
@@ -477,15 +476,14 @@
     }
 
     .partage2 {
-        position: relative;
+        position: absolute;
         width: 50px;
         height: 50px;
         background-color: var(--marron);
         border: 2px solid;
         border-color: var(--beige);
-        display: flex;
-        margin: auto;
-        top: 70px;
+        top: 658px;
+        left: 125px;
     }
 
     .partage3 img {
@@ -495,15 +493,14 @@
     }
 
     .partage3 {
-        position: relative;
+        position: absolute;
         width: 50px;
         height: 50px;
         background-color: var(--marron);
         border: 2px solid;
         border-color: var(--beige);
-        display: flex;
-        margin: auto;
-        top: 52px;
+        top: 678px;
+        left: 125px;
     }
 
     .partage4 img {
@@ -513,15 +510,14 @@
     }
 
     .partage4 {
-        position: relative;
+        position: absolute;
         width: 50px;
         height: 50px;
         background-color: var(--marron);
         border: 2px solid;
         border-color: var(--beige);
-        display: flex;
-        margin: auto;
-        top: 95px;
+        top: 678px;
+        left: 125px;
     }
 
     .partage5 img {
@@ -531,15 +527,14 @@
     }
 
     .partage5 {
-        position: relative;
+        position: absolute;
         width: 50px;
         height: 50px;
         background-color: var(--marron);
         border: 2px solid;
         border-color: var(--beige);
-        display: flex;
-        margin: auto;
-        top: 62px;
+        top: 678px;
+        left: 125px;
     }
 
     .vplus1 {
