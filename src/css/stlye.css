@@ -24,6 +24,10 @@
         text-decoration: none;
         color: var(--blanc);    
     }
+    .headtxt a {
+        text-decoration: none;
+        color: var(--blanc);    
+    }
 
     .apropos {
         position: absolute;

@@ -1,32 +1,51 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{
+  menuIsOpen: false,
+ }" 
+ :class="{noscroll:menuIsOpen,}">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/css/stlye.css" />
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-    <title>Dobby is Free</title>
+    <title>home</title>
   </head>
 <body>
-    <header>
-      <a href="page1en.html"><img src="/public/img/logo.webp"></a>
-      <p>ABOUT US</p><p>GLOSSARY</p>
+  <header>
+    <a href="page1en.html"><img src="/public/img/logo.webp.jpeg"></a>
+    <p class="apropos"><a href="aboutus.html">About us</a></p><p class="glossaire"><a href="Glossary.html">GLOSSARY</a></p>
+
+    <a aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menubtn">
+      <div class="open-closed"><img class="menu-open" src="/public/img/menu-open.webp"/></div>
+      </a>
+      <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+        <div class="close-icon" @click="menuIsOpen = false">
+          <img src="/public/img/menu-closed.webp" alt="Fermer le menu" /></div>
+          <ul>
+            <li><a href="page2en.html">The Magical Saga That Enchanted the World</a></li>
+            <li><a href="page3en.html">The Beginning of a Magical Adventure</a></li>
+            <li><a href="page4en.html">The Epic Conclusion of a Magical Saga</a></li>
+            <li><a href="page5en.html">The Enchanting Melody of the Harry Potter Saga</a></li>
+            <li><a href="page6en.html">The Wizards Behind the Screen</a></li>
+          </ul>
+      </nav>
     </header>
-    <main>
-      <section class="landing">
-        <img src="/public/img/Head.webp" alt="accueuil">
-        <div>
-          <p>FR / ENG</p>
-          <h1>Dobby is Free</h1>
-        </div>
-        <p>
+  <main>
+    <section class="landing">
+      <img class="head" src="/public/img/Head.webp" alt="accueuil">
+      <div class="headtxt">
+        <p><a href="/fr/page1.html">FR</a> / <a href="/en/page1en.html">ENG</a></p>
+        <h1>Dobby is Free</h1>
+      </div>
+        <p class="intro">
             Welcome to the magical world of our site dedicated to Harry Potter! Immerse yourself in the enchanting universe of the saga that has captivated millions of fans around the world.
             Discover fascinating articles, in-depth analyses, untold anecdotes, and a welcoming space for enthusiasts. Join us in this adventure where magic is real, friendship is precious,
             and the adventure knows no end. Whether you're a seasoned wizard or a curious Muggle, there's always something magical to explore here. Come, let yourself be enchanted,
             and become a part of this community that celebrates the unforgettable world of Harry Potter.
         </p>
-        <img src="/public/img/illu_harry.webp" alt="illustration">
+        <img class="illustration" src="/public/img/illu_harry.webp" alt="illustration">
       </section>
       <section class="articles">
         <div class="article1">
@@ -79,22 +98,22 @@
       </section>
     </main>
     <footer>
-      <a href="page1.html"><img src="/public/img/Logo.webp" alt="Retour accueuil"></a>
-      <p>MENU</p>
-      <ul>
-        <li><a href="page1en.html">The Magical Saga That Enchanted the World</a></li>
-          <li><a href="page2en.html">The Magical Beginning of an Epic Saga</a></li>
-          <li><a href="page3en.html">The Epic Conclusion of a Magical Saga</a></li>
-          <li><a href="page4en.html">The Enchanting Melody of the Harry Potter Saga</a></li>
-          <li><a href="page5en.html">The Wizards Behind the Screen</a></li>
+      <a href="page1en.html"><img class="logofooter" src="/public/img/logo.webp.jpeg" alt="Retour accueuil"></a>
+      <p class="menu">MENU</p>
+      <ul class="articleli">
+          <li><a href="page2en.html">The Magical Saga That Enchanted the World</a></li>
+          <li><a href="page3en.html">The Beginning of a Magical Adventure</a></li>
+          <li><a href="page4en.html">The Epic Conclusion of a Magical Saga</a></li>
+          <li><a href="page5en.html">The Enchanting Melody of the Harry Potter Saga</a></li>
+          <li><a href="page6en.html">The Wizards Behind the Screen</a></li>
       </ul>
-      <ul>
-        <li><a href="apropos.html"></a>About us</li>
-        <li><a href="glossaire.html"></a>Glossary</li>
-        <li><a href="autreprojet"></a>Others Projects</li>
+      <ul class="utils">
+        <li><a href="aboutus.html">A Propos</a></li>
+        <li><a href="Glossary.html">Glossaire</a></li>
+        <li><a href="otherpro.html">Autres projets</a></li>
       </ul>
 
-      <p class="suivre">Follow us</p>
+      <p class="suivre">NOUS SUIVRE</p>
       <div class="social-icons">
         <img class="img" src="public/img/facebook.webp" />
         <img class="img" src="public/img/instagram.webp" />
