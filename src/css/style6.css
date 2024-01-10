@@ -752,3 +752,228 @@
         letter-spacing: 0.1em;
         text-align: left;    
     }
+
+    .btnglo {
+        position: absolute;
+        width: 154px;
+        height: 56px;
+        background-color: var(--rouge);
+        text-decoration: none;
+        border: solid 2px;
+        left: 184px;
+        top: 2720px;
+    }
+
+    .btnglo a {
+        text-decoration: none;
+        font-family: Mulish;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: white;
+    }
+
+    .partage1 img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .partage1 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: var(--marron);
+        border: 2px solid;
+        border-color: var(--beige);
+        top: 2650px;
+        left: 150px;
+    }
+
+    .partage2 img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .partage2 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: var(--marron);
+        border: 2px solid;
+        border-color: var(--beige);
+        top: 385px;
+        left: 120px;
+    }
+
+    .vplus2 {
+        position: absolute;
+        width: 112px;
+        height: 50px;
+        background-color: var(--marron);
+        border-color: var(--beige);
+        left: 205px;
+        top: 385px;
+    }
+
+    .vplus2 a {
+        text-decoration: none;
+        font-family: Mulish;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: white;
+    }
+
+    .partage3 img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .partage3 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: var(--marron);
+        border: 2px solid;
+        border-color: var(--beige);
+        top: 410px;
+        left: 120px;
+    }
+
+    .vplus3 {
+        position: absolute;
+        width: 112px;
+        height: 50px;
+        background-color: var(--marron);
+        border-color: var(--beige);
+        left: 205px;
+        top: 410px;
+    }
+
+    .vplus3 a {
+        text-decoration: none;
+        font-family: Mulish;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: white;
+    }
+
+    .partage4 img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .partage4 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: var(--marron);
+        border: 2px solid;
+        border-color: var(--beige);
+        top: 410px;
+        left: 120px;
+    }
+
+    .vplus4 {
+        position: absolute;
+        width: 112px;
+        height: 50px;
+        background-color: var(--marron);
+        border-color: var(--beige);
+        left: 205px;
+        top: 410px;
+    }
+
+    .vplus4 a {
+        text-decoration: none;
+        font-family: Mulish;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: white;
+    }
+
+    .partage5 img {
+        width: 24px;
+        height: 24px;
+        margin-top: -20px;
+    }
+
+    .partage5 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: var(--marron);
+        border: 2px solid;
+        border-color: var(--beige);
+        top: 410px;
+        left: 120px;
+    }
+
+    .vplus5 {
+        position: absolute;
+        width: 112px;
+        height: 50px;
+        background-color: var(--marron);
+        border-color: var(--beige);
+        left: 205px;
+        top: 410px;
+    }
+
+    .vplus5 a {
+        text-decoration: none;
+        font-family: Mulish;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: white;
+    }
+
+    .partage6 img {
+        width: 24px;
+        height: 24px;
+        margin-top: -9px;
+    }
+
+    .partage6 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: var(--marron);
+        border: 2px solid;
+        border-color: var(--beige);
+        top: 410px;
+        left: 120px;
+    }
+
+    .vplus6 {
+        position: absolute;
+        width: 112px;
+        height: 50px;
+        background-color: var(--marron);
+        border-color: var(--beige);
+        left: 205px;
+        top: 410px;
+    }
+
+    .vplus6 a {
+        text-decoration: none;
+        font-family: Mulish;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: white;
+    }

@@ -6,7 +6,7 @@
 @import url(Variables.css);
 
     body {
-        height: 5300px;
+        height: 1400px;
         background-color: var(--beige);
         margin: 0px;
     }
